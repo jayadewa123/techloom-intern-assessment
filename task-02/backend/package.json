@@ -1,0 +1,21 @@
+{
+  "name": "techloom-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Task 02 E-Commerce Storefront & Payment Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db:init": "node src/config/initDb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "uuid": "^11.1.0"
+  }
+}
