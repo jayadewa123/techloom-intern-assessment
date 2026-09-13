@@ -41,7 +41,7 @@ c:\Users\HP\Desktop\Techloom_Intern_Assessment
     │   ├── src/
     │   │   ├── config/ (db.js, initDb.js)  # PostgreSQL pool & auto-init
     │   │   ├── services/                   # Product discovery, Orders, Refunds, Payments
-    │   │   └── routes/                     # REST API endpoints
+    │   │   └── routes/                     # REST API endpointss
     │   ├── .env.example
     │   └── package.json
     └── frontend/                           # React Storefront UI (Port 5174)
