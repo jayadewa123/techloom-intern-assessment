@@ -12,7 +12,7 @@
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structuree
 
 ```
 c:\Users\HP\Desktop\Techloom_Intern_Assessment
