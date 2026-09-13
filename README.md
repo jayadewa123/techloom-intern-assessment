@@ -6,9 +6,9 @@
 
 ## 📌 Submission Information
 
-- **GitHub Repository**: `[INSERT_YOUR_GITHUB_REPO_URL_HERE]`
-- **Live Deployment Task 01 (POS System)**: `[INSERT_TASK_01_DEPLOYMENT_URL_HERE]`
-- **Live Deployment Task 02 (E-Commerce Storefront)**: `[INSERT_TASK_02_DEPLOYMENT_URL_HERE]`
+- **GitHub Repository**: https://github.com/jayadewa123/techloom-intern-assessment
+- **Live Deployment Task 01 (POS System)**: https://techloom-intern-assessment-t6rp.vercel.app/
+- **Live Deployment Task 02 (E-Commerce Storefront)**: https://techloom-intern-assessment-qks4.vercel.app/ 
 
 ---
 
