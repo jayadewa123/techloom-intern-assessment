@@ -6,13 +6,13 @@ import CartDrawer from './components/CartDrawer';
 import CheckoutPaymentModal from './components/CheckoutPaymentModal';
 import OrderHistoryView from './components/OrderHistoryView';
 
-import { 
-  getProducts, 
-  getCategories, 
-  getOrders, 
-  createCheckoutSession, 
-  processPayment, 
-  cancelAndRefundOrder 
+import {
+  getProducts,
+  getCategories,
+  getOrders,
+  createCheckoutSession,
+  processPayment,
+  cancelAndRefundOrder
 } from './api';
 
 export default function App() {
@@ -183,7 +183,7 @@ export default function App() {
         </div>
       )}
 
-      <Navbar 
+      <Navbar
         cartCount={cart.reduce((sum, i) => sum + i.quantity, 0)}
         onToggleCart={() => setIsCartOpen(true)}
         onToggleOrders={() => setShowOrdersView(!showOrdersView)}
@@ -193,14 +193,14 @@ export default function App() {
       />
 
       {showOrdersView ? (
-        <OrderHistoryView 
+        <OrderHistoryView
           orders={orders}
           onBackToStore={() => setShowOrdersView(false)}
           onOpenPayment={(order) => setActivePaymentOrder(order)}
           onCancelOrRefund={handleCancelOrRefund}
         />
       ) : (
-        <ProductGrid 
+        <ProductGrid
           products={products}
           categories={categories}
           selectedCategory={selectedCategory}
@@ -216,7 +216,7 @@ export default function App() {
 
       {/* Product Detail Modal */}
       {selectedProduct && (
-        <ProductDetailModal 
+        <ProductDetailModal
           product={selectedProduct}
           onClose={() => setSelectedProduct(null)}
           onAddToCart={handleAddToCart}
@@ -224,7 +224,7 @@ export default function App() {
       )}
 
       {/* Cart Side Drawer */}
-      <CartDrawer 
+      <CartDrawer
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
         cart={cart}
@@ -237,7 +237,7 @@ export default function App() {
 
       {/* Checkout Payment Gateway Modal */}
       {activePaymentOrder && (
-        <CheckoutPaymentModal 
+        <CheckoutPaymentModal
           order={activePaymentOrder}
           onClose={() => setActivePaymentOrder(null)}
           onProcessPayment={handleProcessPayment}
