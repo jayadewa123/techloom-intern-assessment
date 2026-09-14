@@ -5,7 +5,7 @@ require('dotenv').config();
 const poolConfig = process.env.DATABASE_URL
   ? {
     connectionString: process.env.DATABASE_URL,
-    ssl: { rejectUnauthorized: false }, // Required for Neon.tech cloud DB
+    ssl: { rejectUnauthorized: false }, // Required for Neon.tech cloud Database
     max: 20,
     idleTimeoutMillis: 30000,
     connectionTimeoutMillis: 10000,
