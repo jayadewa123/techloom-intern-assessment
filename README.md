@@ -7,8 +7,8 @@
 ## 📌 Submission Information
 
 - **GitHub Repository**: https://github.com/jayadewa123/techloom-intern-assessment
-- **Live Deployment Task 01 (POS System)**: https://techloom-intern-assessment-t6rp.vercel.app/
-- **Live Deployment Task 02 (E-Commerce Storefront)**: https://techloom-intern-assessment-qks4.vercel.app/ 
+- **Live Deployment Task 01 (POS System)**: https://techloom-intern-assessment-x1yx.vercel.app/
+- **Live Deployment Task 02 (E-Commerce Storefront)**: https://techloom-intern-assessment-qks4.vercel.app/
 
 ---
 
